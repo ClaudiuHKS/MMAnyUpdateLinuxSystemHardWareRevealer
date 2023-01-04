@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31220.234
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{83C3C3B3-8B3A-13D3-8313-C0C0C9CBC9C2}") = "UpdateLinuxSystem", "UpdateLinuxSystem.vcxproj", "{BB1B2B5B-B45C-4BBB-BBE7-BBB2672BBB4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB1B2B5B-B45C-4BBB-BBE7-BBB2672BBB4B}.Release|x86.ActiveCfg = Release|Win32
+		{BB1B2B5B-B45C-4BBB-BBE7-BBB2672BBB4B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E5FCE3A-884A-423E-8EAF-6B3F12CDB256}
+	EndGlobalSection
+EndGlobal
