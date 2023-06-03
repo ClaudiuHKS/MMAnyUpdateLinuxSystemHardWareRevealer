@@ -231,18 +231,18 @@ void* operator new(size_t uiMem)
 }
 
 void* operator new[](size_t uiMem)
-{
-    return malloc(uiMem);
-}
+    {
+        return malloc(uiMem);
+    }
 
-void operator delete(void* pMem)
-{
-    free(pMem);
-}
+    void operator delete(void* pMem)
+    {
+        free(pMem);
+    }
 
-void operator delete[](void* pMem)
-{
-    free(pMem);
-}
+    void operator delete[](void* pMem)
+        {
+            free(pMem);
+        }
 
 #endif

@@ -91,6 +91,7 @@
       <UseFullPaths>false</UseFullPaths>
       <ErrorReporting>None</ErrorReporting>
       <AdditionalIncludeDirectories>$(MMS)\core;$(MMS)\core\sourcehook;$(MYSQL)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BuildStlModules>false</BuildStlModules>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
